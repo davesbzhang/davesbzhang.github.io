@@ -1,14 +1,14 @@
 $(function () {
 	$(".typed").typed({
-		strings: ["别看了.", "网站还没开始敲.", "没想好怎么做."],
+		strings: ["别看了.这是自动回复.", "网站还没开始敲.", "没想好怎么做.", "就这样."],
 		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 		stringsElement: null,
 		// typing speed
-		typeSpeed: 100,
+		typeSpeed: 150,
 		// time before typing starts
 		startDelay: 1200,
 		// backspacing speed
-		backSpeed: 20,
+		backSpeed: 50,
 		// time before backspacing
 		backDelay: 500,
 		// loop
