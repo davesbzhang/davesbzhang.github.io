@@ -1,6 +1,6 @@
 $(function () {
 	$(".typed").typed({
-		strings: ["别看了.这是自动回复.", "网站还没开始敲.", "没想好怎么做.", "就这样."],
+		strings: ["正在回复...", "网站还没开始敲.", "不知道放什么内容.", "就这样!"],
 		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 		stringsElement: null,
 		// typing speed
